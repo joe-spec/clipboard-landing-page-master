@@ -1,0 +1,750 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(./images/bg-header-desktop.png);
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    margin-top: 70px;
+}
+
+section .history {
+    text-align: center;
+    width: 650px;
+    margin: 0px auto;
+}
+
+section .history h1 {
+    font-size: 50px;
+}
+
+section .history p {
+    font-size: 30px;
+}
+
+section .history .tory button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+section .history .tory #ios {
+    background: rgb(81, 221, 221);
+}
+
+section .history .tory #mac {
+     background: rgb(129, 129, 223);
+}
+
+section .keep {
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+}
+
+section .keep h2{
+    font-size: 50px;
+}
+section .keep p{
+    font-size: 30px;
+}
+section .body1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 200px;
+    line-height: 25px;
+}
+
+section .body1 img {
+    width: 700px;
+    height: 500px;
+}
+
+section .body1 .txt {
+    margin-top: 70px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+section .body1 .txt h3{
+    font-size: 35px;
+}
+section .body1 .txt p{
+    font-size: 20px;
+}
+
+section .body2 {
+    text-align: center;
+    width: 800px;
+    margin: 0px auto;
+}
+section .body2 h2{
+    font-size: 50px;
+}
+section .body2 p{
+    font-size: 30px;
+}
+section .body2 img {
+    width: 800px;
+}
+
+section .body3 {
+    display: flex;
+    width: 950px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 30px;
+}
+section .body3 h3{
+    font-size: 30px;
+}
+section .body3 p{
+    font-size: 25px;
+}
+
+section .body3 img {
+    width: 30px;
+}
+
+section .body4 {
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+section .body4 img {
+    width: 150px;
+    height: 60px;
+}
+
+section .body5 {
+    margin: 0px auto;
+    width: 500px;
+    line-height: 50px;
+    text-align: center;
+}
+section .body5 h4{
+    font-size: 50px;
+}
+section .body5 p{
+    font-size: 30px;
+}
+section .body5 button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+section .body5 #ios {
+    background: rgb(81, 221, 221);
+}
+
+section .body5 #mac {
+    background: rgb(129, 129, 223);
+}
+footer{
+    padding: 20px 200px;
+    background: rgb(212, 229, 236);
+    display: flex;
+    justify-content: space-between;
+}
+footer .fota1{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    width: 500px;
+}
+footer .fota1 img{
+    width: 50px;
+}
+footer .fota2{
+   width: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+footer .fota2 img{
+    width: 35px;
+}
+
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1200px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+header {
+    background-image: url(./images/bg-header-desktop.png);
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    margin-top: 70px;
+}
+
+section .history {
+    text-align: center;
+    width: 650px;
+    margin: 0px auto;
+}
+
+section .history h1 {
+    font-size: 50px;
+}
+
+section .history p {
+    font-size: 30px;
+}
+
+section .history .tory button {
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+section .history .tory #ios {
+    background: rgb(81, 221, 221);
+}
+
+section .history .tory #mac {
+     background: rgb(129, 129, 223);
+}
+
+section .keep {
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+}
+section .keep h2{
+    font-size: 50px;
+}
+section .keep p{
+    font-size: 30px;
+}
+
+section .body1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    line-height: 50px;
+}
+
+section .body1 img {
+    width: 700px;
+    height: 500px;
+}
+
+section .body1 .txt {
+    margin-top: 70px;
+    line-height: 50px;
+    
+}
+section .body1 .txt h3{
+    font-size: 50px;
+}
+section .body1 .txt p{
+    font-size: 30px;
+}
+
+section .body2 {
+    text-align: center;
+    width: 800px;
+    margin: 0px auto;
+}
+section .body2 h2{
+    font-size: 50px;
+}
+section .body2 p{
+    font-size: 30px;
+}
+
+section .body2 img {
+    width: 800px;
+}
+
+section .body3 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+}
+section .body3 p{
+    font-size: 30px;
+}
+
+section .body3 img {
+    width: 60px;
+    margin-top: 50px;
+}
+
+section .body4 {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+section .body4 img{
+    width: 150px;
+    height: 70px;
+    margin: 30px;
+}
+
+section .body5 {
+    margin: 0px auto;
+    width: 500px;
+    line-height: 50px;
+    text-align: center;
+}
+section .body5 h4{
+    font-size: 50px;
+}
+section .body5 p{
+    font-size: 30px;
+}
+section .body5 button {
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+section .body5 #ios {
+    background: rgb(81, 221, 221);
+}
+
+section .body5 #mac {
+    background: rgb(129, 129, 223);
+}
+footer{
+    padding: 20px 60px;
+    background: rgb(212, 229, 236);
+    display: flex;
+    justify-content: space-between;
+}
+footer .fota1{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 25px;
+}
+footer .fota1 img{
+    width: 50px;
+}
+footer .fota2{
+   width: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+footer .fota2 img{
+    width: 35px;
+}
+    
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 800px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header {
+        background-image: url(./images/bg-header-mobile.png);
+        text-align: center;
+    }
+
+    .header img {
+        margin-top: 70px;
+    }
+
+    section .history {
+        text-align: center;
+        width: auto;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    section .history h1 {
+        font-size: 50px;
+        width: auto;
+    }
+
+    section .history p {
+        font-size: 30px;
+    }
+    section .history .tory{
+        width: auto;
+       padding: 0px 20px;
+    }
+    section .history .tory button {
+        padding: 15px;
+        border-radius: 20px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    section .history .tory #ios {
+        background: rgb(81, 221, 221);
+    }
+
+    section .history .tory #mac {
+        background: rgb(129, 129, 223);
+    }
+
+    section .keep {
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+    section .keep h2{
+        font-size: 40px;
+        margin: 0px 20px;
+    }
+    section .keep p{
+        font-size: 30px;
+        margin: 0px 20px;
+    }
+    section .body1 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        line-height: 50px;
+    }
+
+    section .body1 img {
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid red; */
+    }
+
+    section .body1 .txt {
+        /* margin-top: 70px; */
+        line-height: 50px;
+        text-align: center;
+    }
+    section .body1 .txt h3{
+        font-size: 50px;
+    }
+    section .body1 .txt p{
+        font-size: 30px;
+    }
+    section .body2 {
+        text-align: center;
+        width: auto;
+        margin: 0px auto;
+        line-height: 50px;
+    }
+    section .body2 h2{
+        font-size: 40px;
+    }
+    section .body2 p{
+        font-size: 30px;
+    }
+    section .body2 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    section .body3 {
+        padding: 40px;
+        display: inline-block;
+        width: auto;
+        margin: 0px auto;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    section .body3 img {
+        width: 50px;
+        margin-top: 50px;
+    }
+    section .body3 h3{
+        font-size: 35px;
+    }
+    section .body3 p{
+        font-size: 20px;
+    }
+    section .body4 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    section .body4 img {
+        width: 200px;
+        height: 60px;
+        margin: 20px auto;
+    }
+
+    section .body5 {
+        margin: 0px auto;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+        
+    }
+    section .body5 h4{
+        font-size: 40px;
+    }
+    section .body5 p{
+        font-size: 30px;
+    }
+    section .body5 .btn{
+        padding: 0px 20px;
+    }
+    section .body5 button {
+        padding: 15px;
+        border-radius: 20px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    section .body5 #ios {
+        background: rgb(81, 221, 221);
+    }
+
+    section .body5 #mac {
+        background: rgb(129, 129, 223);
+    }
+    footer {
+        padding: 20px 0px;
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+    }
+    footer .fota1 {
+        display: inline-block;
+        /* padding: 2px 0px; */
+        justify-content: space-between;
+        width: 50%;
+        font-size: 20px;
+    }
+    footer .fota1 img {
+        width: 70px;
+    }
+    footer .fota2 {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+    }
+    footer .fota2 img {
+        width: 50px;
+    }
+}
+
+
+
+@media screen and (min-width: 10px) and (max-width: 374px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header {
+        background-image: url(./images/bg-header-mobile.png);
+        text-align: center;
+    }
+
+    .header img {
+        margin-top: 50px;
+    }
+
+    section .history {
+        text-align: center;
+        width: auto;
+        margin: 0px auto;
+        padding: 7px;
+    }
+
+    section .history h1 {
+        font-size: 45px;
+        width: auto;
+    }
+
+    section .history p {
+        font-size: 25px;
+    }
+    section .history .tory{
+        width: auto;
+       padding: 0px 15px;
+    }
+    section .history .tory button {
+        padding: 10px;
+        border-radius: 20px;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    section .history .tory #ios {
+        background: rgb(81, 221, 221);
+    }
+
+    section .history .tory #mac {
+        background: rgb(129, 129, 223);
+    }
+
+    section .keep {
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+    section .keep h2{
+        font-size: 35px;
+        margin: 0px 15px;
+    }
+    section .keep p{
+        font-size: 25px;
+        margin: 0px 15px;
+    }
+    section .body1 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        line-height: 50px;
+    }
+
+    section .body1 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .body1 .txt {
+        /* margin-top: 50px; */
+        line-height: 50px;
+        text-align: center;
+        margin: 50px auto;
+    }
+    section .body1 .txt h3{
+        font-size: 45px;
+    }
+    section .body1 .txt p{
+        font-size: 25px;
+    }
+    section .body2 {
+        text-align: center;
+        width: auto;
+        margin: 0px auto;
+        line-height: 30px;
+    }
+    section .body2 h2{
+        font-size: 35px;
+    }
+    section .body2 p{
+        font-size: 25px;
+    }
+    section .body2 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    section .body3 {
+        padding: 30px;
+        display: inline-block;
+        width: auto;
+        margin: 0px auto;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    section .body3 img {
+        width: 40px;
+        margin-top: 30px;
+    }
+    section .body3 h3{
+        font-size: 30px;
+    }
+    section .body3 p{
+        font-size: 25px;
+    }
+    section .body4 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    section .body4 img {
+        width: 100px;
+        height: 40px;
+        margin: 15px auto;
+    }
+
+    section .body5 {
+        margin: 0px auto;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        
+    }
+    section .body5 h4{
+        font-size: 35px;
+    }
+    section .body5 p{
+        font-size: 25px;
+    }
+    section .body5 .btn{
+        padding: 0px 15px;
+    }
+    section .body5 button {
+        padding: 10px;
+        border-radius: 20px;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    section .body5 #ios {
+        background: rgb(81, 221, 221);
+    }
+
+    section .body5 #mac {
+        background: rgb(129, 129, 223);
+    }
+    footer {
+        padding: 15px 0px;
+        display: inline-block;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+    }
+    footer .fota1 {
+        display: inline-block;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 20px;
+    }
+    footer .fota1 img {
+        width: 50px;
+    }
+    footer .fota2 {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px auto;
+    }
+    footer .fota2 img {
+        width: 30px;
+    }
+}
